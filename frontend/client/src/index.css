@@ -1,0 +1,227 @@
+/* Main container for form pages */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Glass-style form */
+.glass-form {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 128, 171, 0.2);
+}
+
+/* Form heading */
+.glass-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #ff4081;
+  text-shadow: 1px 1px 2px rgba(255, 64, 129, 0.2);
+}
+
+/* Table layout for forms */
+.form-table {
+  width: 100%;
+  border-spacing: 8px;
+}
+
+.form-table td {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.form-table label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #444;
+  display: block;
+}
+
+/* Input fields */
+.form-table input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+.glass-btn {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.glass-btn.login {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.glass-btn.register {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.glass-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* "Already have account" paragraph */
+.main-container p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Login link button in text */
+.text-btn {
+  background: none;
+  border: none;
+  color: #0072ff;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.text-btn:hover {
+  color: #ee0979;
+  transform: scale(1.05);
+}
+
+
+
+/* ============================================================================================================= */
+/* Home Section User Dashbord */
+/* Dashboard Main Wrapper */
+.dashboard-wrapper {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: transparent;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+/* Greeting Header */
+.dashboard-greeting {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-shadow: 1px 1px 1px rgba(0, 123, 255, 0.1);
+}
+
+/* Form Container */
+.dashboard-form-container {
+  width: 100%;
+  max-width: 550px;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+
+/* Table for Form Inputs */
+.dashboard-form-table {
+  width: 100%;
+  border-spacing: 12px;
+}
+
+/* Input Fields */
+.dashboard-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+.dashboard-btn {
+  padding: 10px 20px;
+  margin: 6px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.dashboard-btn.primary {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+}
+
+.dashboard-btn.secondary {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+}
+
+.dashboard-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Table Section */
+.dashboard-contact-table-section {
+  width: 100%;
+  padding: 0 10px;
+}
+.dashboard-contact-table-section h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Contact Table */
+.dashboard-contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(99, 99, 99, 0.075);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* Contact Table Headings */
+.dashboard-contact-table thead {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+.dashboard-contact-table th,
+.dashboard-contact-table td {
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-contact-table tbody tr:hover {
+  background-color: rgba(240, 248, 255, 0.4);
+}
