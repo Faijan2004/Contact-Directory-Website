@@ -10,9 +10,6 @@ import UserHome from './users/UserHome';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <UserRegister/> */}
-    {/* <UserLogin/> */}
-    {/* <UserHome/> */}
     <App />
   </React.StrictMode>
 );
