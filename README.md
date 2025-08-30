@@ -31,7 +31,7 @@ Secure data handling with authentication
 
 🛠️ Tech Stack
 
-Frontend: React.js (or HTML/CSS/JS if simple)
+Frontend: React.js (or HTML/CSS/JS)
 
 Backend: Node.js + Express.js
 
